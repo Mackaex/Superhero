@@ -1,0 +1,19 @@
+header{
+	background-color:  #ccff66;
+	padding: 40px;
+	text-align: center;
+}
+
+h1{
+	font-size: 90px;
+	color: grey;
+}
+
+header img{
+	border-radius: 1900px;
+	width: 800px;
+}
+/*<header>
+		<img src="https://www.syfy.com/sites/syfy/files/styles/1200x680/public/2019/03/screen_shot_2019-03-12_at_10.27.29_pm.png">
+		<h1>Saitama</h1>
+	</header>*/
