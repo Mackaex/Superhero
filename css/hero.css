@@ -3,33 +3,49 @@ html, body {
 	margin: 0;
 }
 
+div{
+	background-color: #ffbf80;
+}
+
 header{
 	background-color:  #ccff66;
+	background-image: url('../img/saitama.jpg');
+	border-radius: 100px;
+	background-repeat: repeat;
 	padding: 40px;
 	text-align: center;
+	background-size: 20px;
 }
 
 h1{
 	font-size: 90px;
 	color: #330000;
+	text-shadow: 10px 4px 20px black;
+	margin: 0;
+	text-transform: uppercase;
 }
 
 header img{
 	border-radius: 1900px;
 	width: 800px;
 	border: 6px solid #330000;
+	box-shadow: 0 10px 20px black;
 }
 
 .content{
 	max-width: 750px;
 	margin: 0 auto;
-	background-color: antiquewhite;
+	background-color: #ffbf80;
 	padding: 0;
+	text-shadow: 0 4px 21px black;
+list-style: none;
 }
 
 .big-image{
 	width: 100%;
-	margin: 0 auto;
+	margin: 2 auto;
+	border-radius: 1800px;
+	box-shadow: 0 10px 20px grey;
 }
 
 p.caption{
@@ -42,6 +58,7 @@ ul{
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	text-shadow: 0 4px 21px black;
 }
 
 a{
@@ -53,9 +70,17 @@ footer{
 margin-top: 0 auto;
 padding:40px 20px;
 margin: 0 auto;
-background-color:antiquewhite;
+background-color:#ffbf80;
 }
 
+footer ul li p.Marco{
+	color: Darkred ;
+	text-align: center;
+	display: inline-block;
+}
+footer ul li a{
+	color: darkred;
+}
 footer ul{
 	text-align: center;
 }
